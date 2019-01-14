@@ -164,6 +164,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\clientLogos.png" />
     <Content Include="Content\Images\184724_10150103981857161_6113222_n.jpg" />
     <Content Include="Content\Images\24852115_1960577184184428_8479353838393166380_n.jpg" />
     <Content Include="Content\Images\A95S7824.JPG" />
