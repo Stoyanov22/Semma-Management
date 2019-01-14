@@ -150,7 +150,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\ContactsController.cs" />
+    <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KeyClientsController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -162,7 +164,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Images\logo.jpg" />
+    <Content Include="Content\Images\184724_10150103981857161_6113222_n.jpg" />
+    <Content Include="Content\Images\24852115_1960577184184428_8479353838393166380_n.jpg" />
+    <Content Include="Content\Images\A95S7824.JPG" />
+    <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\meeting the ambassador of Kosovo.JPG" />
+    <Content Include="Content\Images\plevneliev.jpg" />
+    <Content Include="Content\Images\SEMMA_M-LOGO.png" />
+    <Content Include="Content\Images\SEMMA_M-LOGO_TEXT_1.png" />
+    <Content Include="Content\Images\колаж.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -202,6 +212,8 @@
     <Content Include="Views\Services\Agronomy.cshtml" />
     <Content Include="Views\Services\Consultancy.cshtml" />
     <Content Include="Views\Services\Outsourcing.cshtml" />
+    <Content Include="Views\Gallery\Index.cshtml" />
+    <Content Include="Views\KeyClients\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

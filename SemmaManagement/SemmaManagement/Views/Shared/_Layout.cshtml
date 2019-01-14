@@ -18,15 +18,17 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="/Home/Index" class="navbar-brand">
-                    <img border="0" src="~/Content/Images/logo.jpg" height="150%">
+                    <img border="0" src="~/Content/Images/logo.png" height="150%">
                 </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Начало", "Index", "Home")</li>
                     <li>@Html.ActionLink("За компанията", "Index", "About")</li>
-                    <li>@Html.ActionLink("Услуги", "Index", "About")</li>
+                    <li>@Html.ActionLink("Услуги", "Index", "Services")</li>
                     <li>@Html.ActionLink("Контакти", "Index", "Contacts")</li>
+                    <li>@Html.ActionLink("Галерия", "Index", "Gallery")</li>
+                    <li>@Html.ActionLink("Ключови клиенти", "Index", "KeyClients")</li>
                 </ul>
             </div>
         </div>
@@ -34,7 +36,7 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
+        <footer class="text-center">
             <p>&copy; @DateTime.Now.Year - SEMMA Management</p>
         </footer>
     </div>
