@@ -13,23 +13,5 @@ namespace SemmaManagement.Controllers
         {
             return View();
         }
-
-        // GET: Services
-        public ActionResult Agronomy()
-        {
-            return View();
-        }
-
-        // GET: Services
-        public ActionResult Consultancy()
-        {
-            return View();
-        }
-
-        // GET: Services
-        public ActionResult Outsourcing()
-        {
-            return View();
-        }
     }
 }

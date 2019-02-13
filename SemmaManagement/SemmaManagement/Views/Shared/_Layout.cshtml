@@ -35,6 +35,10 @@
     </div>
     <div class="container body-content">
         @RenderBody()
+        @if (CookieConsent.AskCookieConsent(ViewContext))
+        {
+            @Html.Partial("_CookieConsent")
+        }
         <hr />
         <footer class="text-center">
             <p>&copy; @DateTime.Now.Year - SEMMA Management</p>
@@ -43,6 +47,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script type="text/javascript" src="~/Scripts/cookieConsent.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
