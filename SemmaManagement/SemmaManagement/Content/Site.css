@@ -1,21 +1,19 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
     overflow-x: hidden;
     width: 100%;
     font-family: arimo;
-    color: #6c6c6c;
+    background-color: #E7F7FC;
     font-size: 14px;
+    height: 100%;
+    color: #031419;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-}
-
-.container{
-    width:100%;
+    padding-top : 5%;
 }
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -58,6 +56,11 @@ button {
     button:active {
         background-color: DodgerBlue;
     }
+
+.logoPhoto{
+    height: 1vw;
+    display: inline-block;
+}
 
 .prev, .next {
     top: 40%
@@ -143,7 +146,7 @@ p {
 
     .col-pic h5 {
         color: #fff;
-        font-size: 20px;
+        font-size: 30px;
         text-transform: uppercase;
         font-family: 'roboto slab', sans-serif;
         letter-spacing: 0.25px;

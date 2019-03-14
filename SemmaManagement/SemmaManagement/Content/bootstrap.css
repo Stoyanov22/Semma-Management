@@ -4322,6 +4322,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+  background-color: #A2DFF4;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4589,8 +4590,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-    background-color: #222;
-    border-color: #080808;
+    background-color: #A2DFF4;
+    border-color: #02e85b;
+    height: 10%;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -4604,7 +4606,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #031419;
+  height:100%;
+  font-weight: bold;
+  font-size : 1.6vw;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4960,7 +4965,7 @@ a.badge:focus {
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: rgba(10,67,185,0.3);
+    background-color: rgba(10,67,185,0.2);
 }
 .jumbotron h1,
 .jumbotron .h1 {
